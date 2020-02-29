@@ -13,6 +13,7 @@ spring:
   application:
     name: microservicecloud-config-jincong-test
   #  请保存为UTF-8格式
+skip-ssl-validation: true
 
 
 
