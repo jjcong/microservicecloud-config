@@ -33,9 +33,10 @@ eureka:
   instance:
     instance-id: dept-8001.com
     prefer-ip-address: true
- 
+
+# 从Eureka实例中点进去显示的内容
 info:
-  app.name: atguigu-microservicecloud-springcloudconfig01
+  app.name: jincong-microservicecloud-springcloudconfig01
   company.name: www.jincong.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
@@ -72,7 +73,7 @@ eureka:
   instance:
     instance-id: dept-8001.com
     prefer-ip-address: true
- 
+# 从Eureka实例中点进去显示的内容
 info:
   app.name: jincong-microservicecloud-springcloudconfig02
   company.name: www.jincong.com
